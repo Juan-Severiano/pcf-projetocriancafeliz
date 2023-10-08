@@ -6,7 +6,7 @@ export default class Header extends Component {
     return (
       <header className='header d-flex flex-row justify-content-between'>
         <Link to='/'>
-        <img className='logo-header' src="/pcf.png" alt="asd"></img>
+        <img className='logo-pcf' src="/pcf.png" Video Aulasalt="asd"></img>
         </Link>
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
@@ -19,20 +19,12 @@ export default class Header extends Component {
                   <Link className="nav-link" to="/agende-ja">Agende já</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/video-aulas">Video Aulas</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/questoes-ineditas">Questoes Ineditas</Link>
+                  <Link className="nav-link" to="/follow-us">Acompanhe nossas localidades</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/about">Quem somos</Link>
                 </li>
               </ul>
-              <br />
-              <form role="search">
-                <input className="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar"></input>
-                  <button className="btn btn-outline-warning" type="submit">Pesquisar</button>
-              </form>
             </div>
           </div>
         </nav>

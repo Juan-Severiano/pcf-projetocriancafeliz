@@ -1,3 +1,78 @@
 .logo-pcf {
     max-width: 200px;
 }
+
+body {
+    background-color: #9cd9e7;
+}
+
+.header {
+    padding: 10px 100px;
+    background-color: #01a7ce;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    min-height: 20vh!important;
+}
+
+.header .nav-link {
+    color: #fff!important;
+    font-weight: 700;
+  }
+  
+  .header .nav-link:hover {
+    color: #cecece!important;
+  }
+  
+  .navbar-nav {
+    margin-right: 20px!important;
+  }
+
+  .fundo-video {
+    position: absolute;
+    width: 98.9vw;
+    height: 80vh;
+    z-index: -2;
+    overflow: hidden;
+  }
+  
+  .fundo-video .video {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .fundo-video::after {
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #00d0ff -90%, rgba(0, 0, 0, 0.8) 49%, #00d0ff 160%);
+  }
+  .welcome {
+    height: 500px;
+    width: 50%;
+    flex-direction: column;
+    color: #cecece;
+  }
+  
+  .carousel {
+    width: 40%;
+    height: 50%;
+  }
+  
+  .carousel-inner {
+    border-radius: 50%;
+  }
+  
+  .home {
+    height: 80vh!important;
+    margin-top: 20vh;
+  }
+  
+  .title-home {
+    font-size: 50px;
+    font-weight: 900;
+  }
